@@ -1,0 +1,34 @@
+SOC Incident Report
+Title:
+
+Suspicious Login Activity Analysis (Brute Force Detection)
+
+Objective:
+
+Analyze login logs to detect suspicious authentication activity.
+
+Tools Used:
+Manual log review (text file analysis)
+
+Findings:
+Multiple failed login attempts detected from IP 192.168.1.10 targeting admin account
+Successful login occurred after repeated failures
+Additional failed login attempts from IP 10.0.0.5 targeting root account
+
+Attack Type:
+
+Brute force attack
+
+Risk Level:
+
+High
+
+Recommendations:
+Block suspicious IP addresses
+Enable account lockout after failed attempts
+Use multi-factor authentication (MFA)
+Monitor login activity using SIEM tools
+
+Conclusion:
+
+Logs show clear signs of brute-force attack attempts against privileged accounts.
